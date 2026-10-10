@@ -1,0 +1,35 @@
+# Mountain Project gear alerts
+#
+# Edit this file (on GitHub or locally) to change what you're watching for.
+# Changes take effect on the next scheduled run.
+#
+# KEYWORD RULES (case-insensitive):
+#   - Matches whole words, plus plurals: "cam" matches "cam", "cams", "Cams"
+#     but NOT "camera" or "camp".
+#   - Spaces/hyphens are flexible: "gri gri" matches "grigri", "gri-gri", "Gri Gri".
+#   - Prefix with "re:" for a raw regular expression: 're:\bc4\s*#?\s*(3|4)\b'
+#
+# Each watch matches a post when:
+#   ANY of `keywords` appears in the topic title or message text,
+#   AND (if given) ALL of `require` appear,
+#   AND NONE of `exclude` appear.
+
+forums:
+  - id: 103989416
+    name: For Sale / For Free / Want To Buy
+
+# Topics whose TITLE contains any of these are skipped entirely.
+# (Filters out want-to-buy posts so you only see things for sale/free.)
+exclude_titles: ["WTB", "WYB", "want to buy", "ISO", "in search of"]
+
+watches:
+  - name: Big cams
+    keywords: ["re:\\bc4\\s*#?\\s*(3|4|5|6)\\b", "big bro"]
+
+  - name: Approach shoes
+    keywords: ["approach shoe"]
+    require: []
+    exclude: ["kids"]
+
+  - name: Ice screws
+    keywords: ["ice screw", "express screw"]
