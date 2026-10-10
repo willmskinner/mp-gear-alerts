@@ -23,8 +23,6 @@ forums:
 exclude_titles: ["WTB", "WYB", "want to buy", "ISO", "in search of"]
 
 watches:
-  - name: Big cams
-    keywords: ["re:\\bc4\\s*#?\\s*(3|4|5|6)\\b", "big bro"]
 
   - name: Approach shoes
     keywords: ["approach shoe"]
@@ -32,4 +30,4 @@ watches:
     exclude: ["kids"]
 
   - name: Ice screws
-    keywords: ["ice screw", "express screw"]
+    keywords: ["ice screw", "express screw", "screw"]
