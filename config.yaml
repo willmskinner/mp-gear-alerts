@@ -35,4 +35,4 @@ watches:
   - name: Ice picks
     keywords: ["pick", "ice pick", "howey", "krukonogi"]
     require: []
-    exclude: []
+    exclude: ["pick up"]
