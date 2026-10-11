@@ -2,16 +2,19 @@
   "consecutive_failures": 0,
   "forums": {
     "103989416": {
-      "last_message_id": 203992392
+      "last_message_id": 203993923
     }
   },
   "last_error": null,
   "notified": {
     "Approach shoes": [],
     "Ice picks": [
-      203966658
+      203966658,
+      203989548
     ],
-    "Ice screws": []
+    "Ice screws": [
+      203987658
+    ]
   },
   "sources": {},
   "version": 1
