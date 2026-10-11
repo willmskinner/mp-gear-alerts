@@ -31,3 +31,8 @@ watches:
 
   - name: Ice screws
     keywords: ["ice screw", "express screw", "screw"]
+
+  - name: Ice picks
+    keywords: ["pick", "ice pick", "howey", "krukonogi"]
+    require: []
+    exclude: []
