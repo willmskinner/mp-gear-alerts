@@ -24,8 +24,8 @@ exclude_titles: ["WTB", "WYB", "want to buy", "ISO", "in search of"]
 
 watches:
 
-  - name: Approach shoes
-    keywords: ["tibloc", "pulley"] 
+  - name: rescue hardware
+    keywords: ["tibloc", "pulley", "rescue", "rollclip"] 
     require: []
     exclude: []
 
