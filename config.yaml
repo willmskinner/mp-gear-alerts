@@ -25,7 +25,7 @@ exclude_titles: ["WTB", "WYB", "want to buy", "ISO", "in search of"]
 watches:
 
   - name: rescue hardware
-    keywords: ["tibloc", "pulley", "rescue", "rollclip"] 
+    keywords: ["tibloc", "pulley", "rescue", "rollclip", "revolver"] 
     require: []
     exclude: []
 
