@@ -2,7 +2,7 @@
   "consecutive_failures": 0,
   "forums": {
     "103989416": {
-      "last_message_id": 204130738
+      "last_message_id": 204132343
     }
   },
   "last_error": null,
@@ -23,7 +23,8 @@
       204088992,
       204095297,
       204126731,
-      204125928
+      204125928,
+      204131681
     ],
     "Ice screws": [
       203987658,
