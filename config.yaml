@@ -33,6 +33,17 @@ watches:
     keywords: ["ice screw", "express screw", "screw"]
 
   - name: Ice picks
-    keywords: ["pick", "ice pick", "howey", "krukonogi"]
+    keywords: ["pick", "ice pick", "howey", "krukonogi" ]
     require: []
-    exclude: ["pick up"]
+    exclude: ["pick up", "pick it up", "pick them up"]
+
+  - name: front points
+    keywords: ["front point", "dart"] 
+    require: []
+    exclude: []
+
+  - name: accessory
+    keywords: ["crampon bag", "tool protector", "tip protector", "corer"] 
+    require: []
+    exclude: []
+
