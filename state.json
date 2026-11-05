@@ -2,7 +2,7 @@
   "consecutive_failures": 0,
   "forums": {
     "103989416": {
-      "last_message_id": 204164676
+      "last_message_id": 204166120
     }
   },
   "last_error": null,
@@ -40,7 +40,8 @@
     ],
     "accessory": [],
     "front points": [
-      204159941
+      204159941,
+      203697853
     ],
     "rescue hardware": [
       204023925,
